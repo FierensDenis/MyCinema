@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(8, 20, 36);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background: rgb(0, 0, 0);
+}
+nav{
+    z-index: 1;
+    background: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    box-shadow: 0px 7px 10px 0px #0004ff;
+}
+li{
+    list-style: none;
+}
+ul{
+    color: red;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 3px;
+    color: white;
+    background: red;
+}
+H1{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 15px;
+    font-size: 70px;
+    text-align: center;
+}
+h2{
+    font-size: 58px;
+    margin: 0;
+    color: white;
+}
+#my{
+    position: absolute;
+    top:-6px;
+    left: 30%;
+    color: red;
+    font-size: 100PX;
+    padding: 0;
+    margin: 0;
+}
+/****************SECTION FILM DU MOMENT***********************/
+#filmDuMoment{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+#film1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 30%;
+    height: 80%;
+    border: 1px solid black;
+    background-image: url(MEDIA/silence.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 6px 20px 4px #0004ff;
+}
+
+#film2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(MEDIA/captainamercia.jpg);
+    background-size: 100%;
+    box-shadow: 0px 6px 20px 4px #0004ff;
+}
+
+#film3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 30%;
+    height: 80%;
+    border: 1px solid black;
+    background: url(MEDIA/ghostbusters.jpg);
+    background-size: 100%;
+    box-shadow: 0px 6px 20px 4px #0004ff;
+}
+
+#film1:hover{
+    -webkit-transform:scale(1.25);
+    z-index: 1;
+}
+
+#film2:hover{
+    -webkit-transform:scale(1.25);
+}
+
+#film3:hover{
+    -webkit-transform:scale(1.25);
+}
+
+/*******************BARRE DE RECHERCHE*******************/
+.formFilm{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#programmedujour{
+    border-top: blue 1px solid;
+    box-shadow: 0px -10px 11px 0px #0004ff;
+}
+
+.FormFilmElement {
+    margin: 10px;
+}
+
+.inputSeance {
+    margin: 20px;
+}
+
+form{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+}
+#FormAjouterSeance {
+    margin: 25px 0px;
+}
+#FormAjouterSeance form{
+    box-shadow: 0px 0px 8px 4px rgb(255, 255, 255);
+    width: 75%;
+}
+input{
+    box-shadow: 0px 0px 8px 4px rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
+select{
+    width: 50%;
+    box-shadow: 0px 0px 8px 4px rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
+#film {
+    text-align: center;
+margin-bottom: 50px;
+
+}
+#AffichePlanning{
+    margin: 3%;
+    width: 45%;
+    box-shadow: 0px 0px 10px 2px #ff0000;
+}
+#form{
+    margin: 3%;
+    width: 45%;
+    box-shadow: 0px 0px 10px 2px #ff0000;
+}
+
+#film p{
+    background: black;
+    margin: 25px;
+    border: 3px solid #0004ff;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 2px #ffffff;
+}
+#formAddMembre{
+    background: rgb(71, 71, 48);
+    display: grid;
+}
+#Membre{
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    border:1px solid black;
+}
+
+#ModifAbonnement {
+    padding: 3px;
+    background: rgb(223, 198, 118);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#AjouterAbonnement {
+    padding: 3px;
+    background: rgb(94, 170, 94);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#SupprimerAbonnement {
+    padding: 3px;
+    background: rgb(141, 79, 79);
+    border: 2px solid black;
+        border-radius: 10px;
+}
+.FilmDate{
+    border: 1px solid white;
+}
+
+table{
+    border: 1px solid white;
+    margin: auto;
+}
+td{
+    text-align: center;
+    border: 1px solid white;
+}
